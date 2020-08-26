@@ -1,0 +1,94 @@
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+
+.bg-blue{
+    background-color: #023e8a !important;
+}
+
+header{
+    background: url(img/wave2.svg), url(img/wave1.svg), linear-gradient(to left,#00b4d8, #0096c7, #0055b6);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-attachment: fixed;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    color: #fff !important;
+    transition: .3s ease;
+}
+
+.nav-link:hover{
+    color: #d8d8d8 !important;
+}
+
+.main{
+    padding-top: 1rem;
+}
+
+.main-text{
+    margin-top: 5rem;
+}
+
+.main-text h1, p{
+    font-family: 'Fredoka One', cursive;
+    color: #fff
+}
+
+.form-group .form-control{
+    padding: 1.50rem;
+    border: #023e8a 2px solid;
+    border-radius: 5px;
+}
+
+.circulo{
+    position: relative;
+    bottom: 50px;   
+    font-size: 3.5em;
+    width: 100px;
+    height: 100px;
+    background: #0077b6;
+    border: 4px solid #023e8a;
+    text-align: center;
+    transition: .5s;
+    animation-name: flutuacao;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+.circulo:hover{
+    border: 4px solid #fff;
+}
+
+.link-seta{
+    display: block;
+    color: #023e8a;
+    transition: .5s;
+}
+
+.link-seta:hover{
+    color: #fff;
+}
+
+@keyframes flutuacao{
+    from{
+        padding-top: 0;
+    }
+
+    to{
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .main{
+        padding-top: 5rem;
+    }
+    
+    .main-text{
+        margin-top: 10rem;
+    }
+
+}
