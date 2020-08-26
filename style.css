@@ -80,8 +80,15 @@ header{
 }
 
 section{
-    background: #0055b6;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(to right,#00b4d8, #0096c7, #0055b6);
     color: #fff;
+}
+
+.list-group-item{
+    font-weight: 800;
+    color: #023e8a;
 }
 
 @keyframes flutuacao{
@@ -97,11 +104,18 @@ section{
 @media only screen and (min-width: 768px) {
     
     .main{
-        padding-top: 5rem;
+        padding-top: 6rem;
     }
     
     .main-text{
         margin-top: 10rem;
     }
+
+    section{
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+        background: linear-gradient(to right,#00b4d8, #0096c7, #0055b6);
+        color: #fff;
+    }   
 
 }
