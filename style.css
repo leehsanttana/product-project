@@ -1,7 +1,19 @@
-@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Maven+Pro&display=swap";
+
+html{
+    scroll-behavior: smooth;
+}
 
 .bg-blue{
     background-color: #023e8a !important;
+}
+
+h1,h4,h6{
+    font-family: 'Fredoka One', cursive;
+}
+
+p{
+    font-family: 'Maven Pro', sans-serif;
 }
 
 header{
@@ -27,10 +39,6 @@ header{
 
 .main-text{
     margin-top: 5rem;
-}
-
-.main-text h1, p{
-    font-family: 'Fredoka One', cursive;
     color: #fff
 }
 
@@ -68,6 +76,11 @@ header{
 }
 
 .link-seta:hover{
+    color: #fff;
+}
+
+section{
+    background: #0055b6;
     color: #fff;
 }
 
